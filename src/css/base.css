@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #484848;
+}
+button {
+  border: none;
+  background: none;
+  text-align: left;
+}
+/* colors */
+.primary {
+  color: #2670cd;
+}
+/* typography */
+.bold {
+  font-weight: 700;
+}
+/* spacing */
+.ma-0 {
+  margin: 0;
+}
+.pa-0 {
+  padding: 0;
+}
+@media only screen and (max-width: 460px) {
+  section {
+    padding: 0;
+  }
+}

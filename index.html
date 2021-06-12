@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML and CSS</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,user-scalable=yes" />
+    <link href="src/css/base.css" rel="stylesheet" />
+    <link href="src/css/grid.css" rel="stylesheet" />
+    <link href="src/css/faq.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="app" role="main">
+      <section id="selfhelp">
+        <a
+          href="#somepage"
+          class="grid__block"
+          role="listitem"
+          aria-labelledby="title"
+          aria-describedby="description"
+        >
+          <img
+            src="https://img.icons8.com/officel/2x/home.png"
+            alt=""
+            role="presentation"
+            class="icon"
+          />
+          <div class="title primary bold">
+            Your Orders
+          </div>
+          <p class="description" aria-hidden="true">
+            Check order status, track your order, return items and more.
+          </p>
+        </a>
+        <a
+          href="#somepage"
+          class="grid__block"
+          role="listitem"
+          aria-labelledby="title"
+          aria-describedby="description"
+        >
+          <img
+            src="https://via.placeholder.com/50"
+            alt=""
+            role="presentation"
+            class="icon"
+          />
+          <div class="title primary bold">
+            Your Orders
+          </div>
+          <p class="description" aria-hidden="true">
+            Check order status, track your order, return items and more.
+          </p>
+        </a>
+        <a
+          href="#somepage"
+          class="grid__block"
+          role="listitem"
+          aria-labelledby="title"
+          aria-describedby="description"
+        >
+          <img
+            src="https://via.placeholder.com/50"
+            alt=""
+            role="presentation"
+            class="icon"
+          />
+          <div class="title primary bold">
+            Your Orders
+          </div>
+          <p class="description" aria-hidden="true">
+            Check order status, track your order, return items and more.
+          </p>
+        </a>
+      </section>
+      <section id="faq">
+        <div class="faq__item" aria-live="polite" aria-expanded="false">
+          <input type="checkbox" id="faq1" />
+          <label for="faq1" class="primary bold ma-0 pa-0">
+            <i class="icon__cross" role="presentation">
+              <span class="line"></span>
+              <span class="line"></span>
+            </i>
+            <span role="button" tabindex="0"
+              >Nulla vel metus molestie turpis iaculis volutpat.</span
+            >
+          </label>
+          <p class="panel" aria-hidden="true">
+            Vivamus vel est placerat, rhoncus turpis et, gravida ipsum. Morbi
+            condimentum risus dapibus, tempus mauris bibendum, mattis turpis.
+          </p>
+        </div>
+        <div class="faq__item" aria-live="polite" aria-expanded="false">
+          <input type="checkbox" id="faq2" />
+          <label for="faq2" class="primary bold ma-0 pa-0">
+            <button class="icon__cross" role="presentation" tabindex="-1">
+              <span class="line"></span>
+              <span class="line"></span>
+            </button>
+            <span role="button" tabindex="0"
+              >Nulla vel metus molestie turpis iaculis volutpat.</span
+            >
+          </label>
+          <p class="panel" aria-hidden="true">
+            Vivamus vel est placerat, rhoncus turpis et, gravida ipsum. Morbi
+            condimentum risus dapibus, tempus mauris bibendum, mattis turpis.
+          </p>
+        </div>
+      </section>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
