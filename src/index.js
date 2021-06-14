@@ -11,10 +11,11 @@ function toggleA11Y(e) {
 const faqs = document.querySelectorAll(".faq__item");
 faqs.forEach((item) => {
   const input = item.querySelector("input");
+  // toggle on click
   input.addEventListener("click", function (e) {
     toggleA11Y(e);
   });
-  const question = item.querySelector("label > span");
+  const question = item.querySelector("label");
 
   question.addEventListener("keydown", function (e) {
     // toggle on space or enter key
